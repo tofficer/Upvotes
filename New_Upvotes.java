@@ -4,13 +4,13 @@ import java.util.*;
 
 public class New_Upvotes {
 	public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        List<String> lines = new ArrayList<>();
-        String line = null;
-        while((line = br.readLine()) != null) {
-                lines.add(line);
-        }
-        br.close();
+        	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        	List<String> lines = new ArrayList<>();
+        	String line = null;
+        	while((line = br.readLine()) != null) {
+        		lines.add(line);
+		}
+		br.close();
 
 		String[] arr = lines.get(0).split("\\s+");
 
